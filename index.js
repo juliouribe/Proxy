@@ -28,16 +28,3 @@ app.listen(5001, () => {
   // Run two servers. One for main project and one for proxy server.
   console.log('Listening on port 5001...')
 });
-
-
-/*
-
-
-
-*/
-const data = fetch("http://localhost:5001?url=https://google.com");
-
-// Maybe use Darren's proxy host
-// https://cors-proxy-xphi.onrender.com/
-
-// Render . com for hosting
